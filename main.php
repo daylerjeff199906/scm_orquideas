@@ -151,7 +151,7 @@ require 'components/header.general.php';
                                               "</tr>"+
                                               "<tr>"+
                                                 "<td>6.</td>"+
-                                                "<td>Humedad del suelo</td>"+ //HUMEDAD DE SUELO
+                                                "<td>Humedad del cielo</td>"+ //HUMEDAD DE SUELO
                                                 "<td>"+
                                                   value.case_uv+ " uv"+ //AQUI TOOOOOOOOOOOOOY
                                                 "</td>"+
