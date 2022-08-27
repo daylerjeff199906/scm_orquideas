@@ -44,7 +44,7 @@
 		$stmt->bindValue(':humedad', $_GET['humedad']);
 		$stmt->bindValue(':calor', $_GET['calor']);
 		$stmt->bindValue(':uv', $_GET['uv']);
-		$stmt->bindValue(':uv', $_GET['uv']); //eh cambiado
+		$stmt->bindValue(':hs', $_GET['hs']); //eh cambiado
 		$stmt->bindValue(':nodo', $_GET['nodo']);
 		$stmt->bindValue(':registro', $fecha);
 		$stmt->execute();
