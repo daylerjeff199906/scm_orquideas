@@ -28,7 +28,7 @@ include "config.php";
     </header>
     <div class="l-navbar" id="nav-bar">
         <nav class="nav">
-            <div> <a href="#" class="nav_logo"> <i class='bx bx-layer nav_logo-icon'></i> <span class="nav_logo-name">SM - UNMSM</span> </a>
+            <div> <a href="#" class="nav_logo"> <i class='bx bx-layer nav_logo-icon'></i> <span class="nav_logo-name">SCM-ORQUIDEAL</span> </a>
                 <div class="nav_list"> <a href="main.php" class="nav_link active"><i class='bx bx-grid-alt nav_icon'></i> <span class="nav_name">Ver sensores</span> </a> 
                 <a href="users.php" class="nav_link"><i class='bx bx-user nav_icon'></i> <span class="nav_name">Gestión de usuarios</span> </a> 
                 <a href="sensores.php" class="nav_link"><i class='bx bx-message-square-detail nav_icon'></i> <span class="nav_name">Gestión de nodo</span> </a> 

@@ -32,7 +32,7 @@ if(isset($_POST['but_submit'])){
  
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<title>Sistema monitoreo - UNMSM</title>
+<title>Sistema monitoreo y control de Orquideal</title>
 
     </head>
     <body class="d-flex flex-column h-100">
@@ -41,7 +41,7 @@ if(isset($_POST['but_submit'])){
   <!-- Fixed navbar -->
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="#">SISTEMA MONITOREO - UNMSM</a>
+    <a class="navbar-brand" href="#">Sistema monitoreo y control de Orquideal</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

@@ -34,17 +34,18 @@
 	//Insertar registro
 	if($_SERVER['REQUEST_METHOD'] == 'GET')
 	{
-		$sql = "INSERT INTO `sanmarcos_monitoreo`(`mon_double_temperatura`, `mon_double_luz`, `mon_double_humedad`, `mon_double_calor`, `mon_varchar_uv`, `nod_int_id`, `mon_date_registro`) VALUES (:temperatura, :luz, :humedad, :calor, :uv, :nodo, :registro)";
+		$sql = "INSERT INTO `scm_monitoreo`(`mon_double_ta`, `mon_double_hr`, `mon_double_ic`, `mon_double_il`, `mon_varchar_uv`, `mon_varchar_rango`,`mon_varchar_hs`, `nod_int_id`, `mon_date_registro`) VALUES (:ta, :hr, :ic, :il, :uv, :rango, :hs, :nodo, :registro)";
 		$zonahoraria="-5";
 		$formato="Y-m-d H:i:s a";
 		$fecha=gmdate($formato, time()+($zonahoraria*3600));
 		$stmt = $pdo->prepare($sql);
-		$stmt->bindValue(':temperatura', $_GET['temperatura']);
-		$stmt->bindValue(':luz', $_GET['luz']);
-		$stmt->bindValue(':humedad', $_GET['humedad']);
-		$stmt->bindValue(':calor', $_GET['calor']);
+		$stmt->bindValue(':ta', $_GET['ta']);
+		$stmt->bindValue(':hr', $_GET['hr']);
+		$stmt->bindValue(':ic', $_GET['ic']);
+		$stmt->bindValue(':il', $_GET['il']);
 		$stmt->bindValue(':uv', $_GET['uv']);
-		$stmt->bindValue(':hs', $_GET['hs']); //eh cambiado
+		$stmt->bindValue(':rango', $_GET['rango']);
+		$stmt->bindValue(':hs', $_GET['hs']);
 		$stmt->bindValue(':nodo', $_GET['nodo']);
 		$stmt->bindValue(':registro', $fecha);
 		$stmt->execute();

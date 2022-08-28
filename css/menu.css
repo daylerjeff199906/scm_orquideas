@@ -4,9 +4,9 @@
 :root {
     --header-height: 3rem;
     --nav-width: 68px;
-    --first-color: #1f105a;
-    --first-color-light: #AFA5D9;
-    --white-color: #F7F6FB;
+    --first-color: #105a37f5;
+    --first-color-light: #b6dcdf;
+    --white-color: #fcf9f9;
     --body-font: 'Nunito', sans-serif;
     --normal-font-size: 1rem;
     --z-fixed: 100

@@ -132,14 +132,14 @@ require 'components/header.general.php';
                                                 "<td>3.</td>"+
                                                 "<td>Indice de Calor</td>"+ //INDICE DE CALOR
                                                 "<td>"+
-                                                  value.case_calor+ " NTU"+ 
+                                                  value.case_calor+ " °C"+ 
                                                 "</td>"+
                                               "</tr>"+
                                               "<tr>"+
                                                 "<td>4.</td>"+
                                                 "<td>Intensidad de Luz</td>"+  //INTENSIDAD DE LUZ
                                                 "<td>"+
-                                                  value.case_luz+ " °Wts"+
+                                                  value.case_luz+ " Lx"+
                                                 "</td>"+
                                               "</tr>"+
                                               "<tr>"+
@@ -150,10 +150,17 @@ require 'components/header.general.php';
                                                 "</td>"+
                                               "</tr>"+
                                               "<tr>"+
-                                                "<td>6.</td>"+
+                                              "<td>6.</td>"+
+                                                "<td>Rango UV</td>"+ // INDICE DE UV
+                                                "<td>"+
+                                                  value.case_rango+ 
+                                                "</td>"+
+                                                "</tr>"+
+                                              "<tr>"+
+                                                "<td>7.</td>"+
                                                 "<td>Humedad del suelo</td>"+ //HUMEDAD DE SUELO
                                                 "<td>"+
-                                                  value.case_uv+ " uv"+ //AQUI TOOOOOOOOOOOOOY
+                                                  value.case_hs+ " %"+ //AQUI TOOOOOOOOOOOOOY
                                                 "</td>"+
                                               "</tr>"+
 
